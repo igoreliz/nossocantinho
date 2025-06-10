@@ -1,0 +1,89 @@
+/* Importando a fonte Vonca que baixamos */
+@font-face {
+    font-family: 'Bachelors Display';
+    src: url('../fonts/Bachelors Display.otf') format('opentype');
+}
+
+/* Variáveis de Cor para facilitar */
+:root {
+    --rosa-claro: #FADADD;
+    --rosa-queimado: #D99EC4;
+    --branco-gelo: #F5F5F5;
+    --cinza-aconchegante: #4A4A4A;
+}
+
+body {
+    background-color: var(--rosa-claro);
+    font-family: 'Lato', sans-serif;
+    color: var(--cinza-aconchegante);
+    text-align: center;
+    margin: 0;
+    padding: 0 20px; /* adicionado: padding lateral */
+}
+
+/* --- Seção 1: Música e Título --- */
+.secao-musica {
+    padding: 40px 20px;
+    background-color: var(--branco-gelo);
+}
+
+.titulo-principal {
+    font-family: 'Bachelors Display', cursive;
+    color: var(--rosa-queimado);
+    font-size: 5rem; /* 80px */
+    margin-top: 20px;
+}
+
+/* --- Seção 2: Carrossel --- */
+.secao-carrossel {
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 15px;
+    overflow: hidden; /* Garante que as bordas arredondadas funcionem na imagem */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Seção 3: Cronômetro --- */
+.secao-contador {
+    padding: 40px 20px;
+}
+
+.secao-contador h2 {
+    font-size: 2rem; /* 32px */
+    color: var(--rosa-queimado);
+    font-weight: 300;
+}
+
+#cronometro {
+    font-size: 1.5rem; /* 24px */
+    font-weight: 700;
+    margin-top: 10px;
+    color: var(--cinza-aconchegante);
+}
+
+/* --- Seção 4: Rodapé --- */
+.rodape {
+    background-color: var(--rosa-queimado);
+    color: var(--branco-gelo);
+    padding: 30px 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0 -10px 20px rgba(0, 0, 0, 0.15); /* sombra superior */
+}
+
+.rodape p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+    .titulo-principal {
+        font-size: 3.5rem;
+    }
+    .secao-carrossel {
+        margin: 20px 10px;
+    }
+}
