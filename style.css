@@ -25,6 +25,8 @@ body {
 .secao-musica {
     padding: 0px 0px;
     background-color: var(--rosa-queimado);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 .titulo-principal {
