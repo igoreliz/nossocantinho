@@ -23,13 +23,13 @@ body {
 
 /* --- Seção 1: Música e Título --- */
 .secao-musica {
-    padding: 40px 20px;
-    background-color: var(--branco-gelo);
+    padding: 0px 0px;
+    background-color: var(--rosa-queimado);
 }
 
 .titulo-principal {
     font-family: 'Bachelors Display', cursive;
-    color: var(--rosa-queimado);
+    color: var(--branco-gelo);
     font-size: 5rem; /* 80px */
     margin-top: 20px;
 }
