@@ -25,7 +25,6 @@ body {
 .secao-musica {
     padding: 0px 0px;
     background-color: var(--rosa-queimado);
-    margin-top: 20px;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
 }
@@ -33,7 +32,7 @@ body {
 .titulo-principal {
     font-family: 'Bachelors Display', cursive;
     color: var(--branco-gelo);
-    font-size: 3rem; /* 80px */
+    font-size: 3rem; /* 60px */
     margin-top: 20px;
 }
 
