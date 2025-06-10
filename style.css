@@ -1,7 +1,7 @@
 /* Importando a fonte Vonca que baixamos */
 @font-face {
     font-family: 'Bachelors Display';
-    src: url('../fonts/Bachelors Display.otf') format('opentype');
+    src: url('/fonts/Bachelors Display.otf') format('opentype');
 }
 
 /* Variáveis de Cor para facilitar */
