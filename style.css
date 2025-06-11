@@ -34,7 +34,7 @@ body {
 
 .titulo-principal {
     font-family: 'Bachelors Display', cursive;
-    color: var(--branco-gelo);
+    color: var(--rosa-queimado);
     font-size: 3rem; /* 60px */
     margin-top: 20px;
 }
