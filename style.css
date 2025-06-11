@@ -29,6 +29,10 @@ body {
     border-bottom-right-radius: 40px;
 }
 
+.spotify {
+    margin-top: 15px;
+}
+
 .titulo-principal {
     font-family: 'Bachelors Display', cursive;
     color: var(--branco-gelo);
